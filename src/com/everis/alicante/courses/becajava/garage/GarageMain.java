@@ -1,5 +1,6 @@
 package com.everis.alicante.courses.becajava.garage;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -17,7 +18,7 @@ public class GarageMain {
 		static ControladorGaraje controlador;
 		
 		
-		public static void main(String[] args) throws IOException {	
+		public static void main(String[] args) throws IOException, ParseException {	
 		
 		  
 			inicializarComponentes();
@@ -29,7 +30,7 @@ public class GarageMain {
 	}
 	
 	@SuppressWarnings("resource")
-	private static void iniciarAplicacion() throws IOException {
+	private static void iniciarAplicacion() throws IOException, ParseException {
 		
 		System.out.println("*******************************************************");	
 		

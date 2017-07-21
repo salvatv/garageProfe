@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class ValidadorNif {
 
-	public boolean ValidaNif(String nif) {
+	public static boolean validaNif(String nif) {
 
 		boolean correcto = false;
 		Pattern pattern = Pattern.compile("(\\d{1,8})([TRWAGMYFPDXBNJZSQVHLCKEtrwagmyfpdxbnjzsqvhlcke])");

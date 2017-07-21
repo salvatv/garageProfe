@@ -1,11 +1,11 @@
 package com.everis.alicante.courses.becajava.garage.domain;
 
 public class Cliente {
-	
+
 	private String nif;
-	
+
 	private String nombreCompleto;
-	
+
 	private Vehiculo vehiculo;
 
 	/**
@@ -16,7 +16,8 @@ public class Cliente {
 	}
 
 	/**
-	 * @param nif the nif to set
+	 * @param nif
+	 *            the nif to set
 	 */
 	public void setNif(String nif) {
 		this.nif = nif;
@@ -30,7 +31,8 @@ public class Cliente {
 	}
 
 	/**
-	 * @param nombreCompleto the nombreCompleto to set
+	 * @param nombreCompleto
+	 *            the nombreCompleto to set
 	 */
 	public void setNombreCompleto(String nombreCompleto) {
 		this.nombreCompleto = nombreCompleto;
@@ -44,26 +46,24 @@ public class Cliente {
 	}
 
 	/**
-	 * @param vehiculo the vehiculo to set
+	 * @param vehiculo
+	 *            the vehiculo to set
 	 */
 	public void setVehiculo(Vehiculo vehiculo) {
 		this.vehiculo = vehiculo;
 	}
-	
-	public String convierteAFormatoTxt(){
-		
-		String str="";
-		
-		str=str.concat(String.valueOf(this.nif));
-		str=str.concat(";");
-		str=str.concat(String.valueOf(this.nombreCompleto));
-		str=str.concat(";");
-		str=str.concat(this.getVehiculo().getMatricula());			
-		
-		
+
+	public String convierteAFormatoTxt() {
+
+		String str = "";
+
+		str = str.concat(String.valueOf(this.nif));
+		str = str.concat(";");
+		str = str.concat(String.valueOf(this.nombreCompleto));
+		str = str.concat(";");
+		str = str.concat(this.getVehiculo().getMatricula());
+
 		return str;
 	}
-	
-	
 
 }

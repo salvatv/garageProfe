@@ -4,17 +4,16 @@ import java.util.List;
 import java.util.Map;
 
 public class Garaje {
-	
-	//modelo de datos
+
+	// modelo de datos
 	private List<Plaza> plazas;
-	
-	
-	//informacion auxiliar util
-	private Map<String,Reserva> reservas;
-	
-	private Map<String,Vehiculo> vehiculos;
-	
-	private Map<String,Cliente> clientes;
+
+	// informacion auxiliar util
+	private Map<String, Reserva> reservas;
+
+	private Map<String, Vehiculo> vehiculos;
+
+	private Map<String, Cliente> clientes;
 
 	public List<Plaza> getPlazas() {
 		return plazas;
@@ -48,5 +47,4 @@ public class Garaje {
 		this.clientes = clientes;
 	}
 
-	
 }
