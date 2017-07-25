@@ -24,7 +24,7 @@ public class GarageMain {
 		static Date fechaInicio = null;
 		static Date fechaFin=null;
 		
-		public static void main(String[] args) throws IOException, ParseException {	
+		public static void main(String[] args) throws IOException, ParseException, GarajeException {	
 		
 		
 			inicializarComponentes();
@@ -36,7 +36,7 @@ public class GarageMain {
 	}
 	
 	@SuppressWarnings("resource")
-	public static void iniciarAplicacion() throws IOException, ParseException  {
+	public static void iniciarAplicacion() throws IOException, ParseException, GarajeException  {
 		
 		System.out.println("*******************************************************");	
 		

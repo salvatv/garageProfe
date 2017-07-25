@@ -13,7 +13,7 @@ public interface ControladorGaraje {
 	Map<Integer, Plaza> listarPlazasLibres() throws GarajeException;
 	void listarPlazasOcupadas() throws IOException, ParseException;
 	boolean reservarPlaza() throws IOException, ParseException, GarajeException;
-	void listarClientes() throws IOException;
+	void listarClientes() throws GarajeException;
 	void listarReservas() throws IOException, ParseException;
 	void listarVehiculos() throws IOException;
 	void listarReservasByFecha(Date fechaInicio,Date fechaFin) throws IOException, ParseException;

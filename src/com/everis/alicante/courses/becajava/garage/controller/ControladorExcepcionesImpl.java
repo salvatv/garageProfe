@@ -9,7 +9,7 @@ import com.everis.alicante.courses.becajava.garage.domain.GarajeException;
 public class ControladorExcepcionesImpl implements ControladorExcepciones{
 
 	@Override
-	public void gestionaExcepcion(GarajeException e) {		
+	public void gestionaExcepcion(GarajeException e) throws GarajeException {		
 		
 		e.gestionaExcepcion();
 		

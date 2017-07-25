@@ -1,0 +1,4 @@
+
+Error :class com.everis.alicante.courses.becajava.garage.domain.GarajeExceptioncausa : java.io.FileNotFoundException: src\resources\Clientes.txt (El sistema no puede encontrar el archivo especificado)
+Error :class com.everis.alicante.courses.becajava.garage.domain.GarajeExceptioncausa : java.io.FileNotFoundException: src\resources\Clientes.txt (El sistema no puede encontrar el archivo especificado)hora : 2017/07/25 18:37:18
+Error :class com.everis.alicante.courses.becajava.garage.domain.GarajeExceptioncausa : java.io.FileNotFoundException: src\resources\Clientes.txt (El sistema no puede encontrar el archivo especificado)hora : 2017/07/25 18:41:09
